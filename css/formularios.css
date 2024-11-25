@@ -1,0 +1,63 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+h1 {color: whitesmoke;
+text-shadow: 0px 0px 2px black;}
+
+.cabecera {min-height: 1px;
+padding: 20px 0px;
+text-align: center;
+background: rgb(0,255,249);
+background: linear-gradient(0deg, rgba(0,255,249,1) 0%, rgba(18,42,255,1) 47%, rgba(12,255,244,1) 100%);
+}
+
+.cuerpo {padding: 0px 0px 60px 0px;
+}
+
+.contenido {
+    background: rgb(0,255,249);
+    background: linear-gradient(0deg, rgba(0,255,249,0) 0%, rgba(18,255,253,0) 47%, rgba(12,255,220,1) 100%);
+    display: flex;
+    padding: 60px 20% 60px 20%;}
+
+h2 {padding-bottom: 15px ;
+font-size: 2em;}
+
+.formularios input, .formularios textarea {width: 100%; height: 60px;
+border-radius: 3px ;
+border-color: transparent;
+box-shadow: 0px 0px 2px black;
+margin-bottom: 8px;}
+
+.contenido div {width: 50%;}
+
+.contenido p {font-size: 1.5em;
+line-height: 1.5;}
+
+.formularios textarea {max-width: 100%;
+min-width: 100%; }
+
+#btn {width: 200px;}
+
+html {
+    --s: 60px; /* control the size*/
+    --c1: #f7f7f7;
+    --c2: #ffffff;
+    
+    --_g: radial-gradient(25% 25% at 25% 25%,var(--c1) 99%,#0000 101%);
+    background:
+     var(--_g) var(--s) var(--s)/calc(2*var(--s)) calc(2*var(--s)),
+     var(--_g) 0 0/calc(2*var(--s)) calc(2*var(--s)),
+     radial-gradient(50% 50%,var(--c2) 98%,#0000) 0 0/var(--s) var(--s),
+     repeating-conic-gradient(var(--c2) 0 25%,var(--c1) 0 50%) 
+       calc(.5*var(--s)) 0/calc(2*var(--s)) var(--s);}
+
+       .pie {min-height: 50px;
+        padding-top: 45px;
+        text-align: center;
+        background: rgb(0,255,249);
+        background: linear-gradient(180deg, rgba(0,255,249,0) 0%, rgba(18,255,253,0) 41%, rgba(12,255,220,1) 100%);}

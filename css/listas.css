@@ -1,0 +1,15 @@
+/*DOCUMENTO CSS*/
+*{margin: 0;}
+*{padding: 0;} 
+h1 {background-color: greenyellow;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 15px 0px;}
+.segundo {color: blueviolet;}
+.lista {width: 60%;
+      min-height: 1px;
+    background-color: rgba(199, 255, 14, 0.858);
+margin: 15px auto 15px auto;
+padding: 15px 15px 15px 15px;}
+header, footer, main, div, article, nav {box-sizing: border-box;}
+.relleno {padding-left: 30px ;}

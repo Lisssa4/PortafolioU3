@@ -1,0 +1,86 @@
+/*DOCUMENTO CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {position:relative;
+    height: 280px;
+    background-image:url(https://th.bing.com/th/id/R.7345e6897bf683443a3bbbc9e41a5685?rik=5Cq9Tc2uKf1lqA&riu=http%3a%2f%2fjetnews.com.mx%2fwp-content%2fuploads%2f2020%2f05%2fjet-news_monaco_ss_155335403.jpg&ehk=5FErFJn9bS%2bO4TO6PPUH%2bwQedbE4G5IIxUuilnhY2lo%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    }
+    .overlay {position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hwb(0 0% 100% / 0.678);
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    }
+    .contenidoheader {text-align: center;}
+    .contenidoheader h1 {
+        font-size: 5rem;
+        letter-spacing: 0.1em;
+        margin-bottom: 10px;
+    }
+    .contenidoheader p {font: size 1.5em;;
+        background-color: rgba(0, 0, 0, 0.348);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+
+    body {background-color: rgba(247, 207, 178, 0.466);
+    text-align: center;}
+    .londres, .roma, .vegas {
+        width: 80%; 
+        max-width: 1100px; 
+        margin: 20px auto;
+        text-align: justify;
+    }
+    .londres img, .roma img, .vegas img {
+        width: 100%;
+        height: auto; 
+    }
+    .londres p, .roma p, .vegas p {
+        text-align: justify; 
+        line-height: 1.8;
+        font-size: 1.2rem; 
+        color: #333;
+        padding: 15px;
+    }
+
+     h2 {text-align: center;
+         font-size: 3em;
+         padding: 20px;}
+
+
+
+
+
+
+
+
+
+
+    .londres {text-align: justify;}
+    .londres p {text-align: justify;
+    text-justify:distribute-all-lines;}
+    .roma {text-align: justify;}
+    .vegas {text-align: justify;}
+
+footer {background-color: #000000;
+    color: rgb(255, 255, 255);
+text-align: center;
+padding:10px ;
+margin: top 40%;}
+footer p {margin: 5px 0;}

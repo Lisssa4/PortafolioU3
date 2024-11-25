@@ -1,0 +1,127 @@
+/* Documento css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {position:relative;
+height: 280px;
+background-image:url(https://www.sopitas.com/wp-content/uploads/2022/10/fechas-venta-precios-boletos-gran-premio-mexico-2023.jpg?resize=1024);
+background-size: cover;
+background-position: center;
+display:flex;
+justify-content: center;
+align-items:center;
+color: white;
+}
+.overlay {position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: hwb(0 0% 100% / 0.678);
+display: flex;
+flex-direction: column ;
+justify-content: center;
+align-items: center;}
+.contenidoheader {text-align: center;}
+.contenidoheader h1 {
+    font-size: 5rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;}
+.contenidoheader p {font: size 1.5em;;
+    background-color: rgba(0, 0, 0, 0.348);
+    padding: 5px 10px;
+    border-radius: 5px;}
+.directo {margin-top: 0px;
+background-color: black;
+text-align: center;
+text-transform:initial ;}
+.directo a {text-decoration: none;
+    color: white;
+    justify-content: center;
+    margin: 0 26px;
+    font-size: 1.8rem;
+    transition: color 0.3s ease;}
+    .directo a:hover {color: #d4021e;}
+.info {text-align:justify;
+justify-content: center;}
+.info h2,h1,h3 {text-align: center;}
+.pilotos h2 {text-align: center;
+text-transform ;}
+.checo {text-align: justify;}
+.checo h2 {text-align: center;
+    font-size:xx-large;}
+.pato {text-align: justify;
+align-items: center;}
+.pato h2 {text-align: center;
+font-size:xx-large;}
+
+body {font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;}
+
+    .info {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 2em;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;}
+
+    .info h1 {
+        font-size: 2em;
+        color: #d92323;
+        border-bottom: 2px solid #d92323;
+        padding-bottom: 0.3em;
+        margin-bottom: 0.6em;}
+
+    .info h2, .info h3 {
+        color: #555;
+        margin-top: 1.5em;}
+    
+    article {
+        background: #fafafa;
+        border-radius: 8px;
+        padding: 2em;
+        margin: 2em 0;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);}
+
+    article h2 {
+        font-size: 1.5em;
+        color: #d92323;
+        border-bottom: 1px solid #d92323;
+        padding-bottom: 0.3em;
+        margin-bottom: 1em;}
+
+    article img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 1em;
+        transition: transform 0.3s ease;}
+
+    p {text-align: justify;
+       margin: 1em 0;}
+            
+    article h2 {font-size: 1.3em;}
+
+    a {color: #d92323;
+      text-decoration: none;
+      font-weight: bold;}
+
+
+
+
+
+    footer {background-color: #000000;
+    color: white;
+text-align: center;
+padding:10px ;
+margin: top 40%;}
+footer p {margin: 5px 0;}
+footer a {color: #d4021e;}
+footer a:hover {text-decoration: underline;}

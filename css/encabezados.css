@@ -1,0 +1,17 @@
+/* Documento css */
+body { background-color:pink ;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-transform: uppercase;
+        text-decoration: solid;
+      }
+
+h1 {color:rgb(192, 105, 0) ; font-size: 2em; text-align: center; font-weight: bold;}
+h2 {color: blueviolet; font-size: 2em; text-align: center; font-weight: bold; }
+h3 {color: rgb(2, 109, 38); font-size: 2em; text-align: center; font-weight: bold;}
+h4 {color: darkred; font-size: 2em; text-align: center; font-weight: bold;}
+h5 {color: indigo; font-size: 2em; text-align: center; font-weight: bold;}
+h6 {color: blue; font-size: 2em; text-align: center; font-weight: bold;}
+div p small {color: rgb(86, 5, 5);background-color: rgb(210, 178, 239);}
+div p {line-height: 1.5;}

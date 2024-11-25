@@ -1,0 +1,32 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0; padding: 0;}
+
+h2 { font-family: Arial, 'Franklin Gothic Medium';}
+
+section, div {box-sizing: border-box; }
+
+.container { display: flex;
+             padding: 15px;
+             flex-wrap: row wrap;
+             height: 600px;
+             align-items: stretch;
+             min-height: 150px;
+             width: 70%;
+             margin: 0px auto;
+             justify-content: space-between}
+
+.item { padding: 15px;
+       width: 50%;
+    min-height: 150px;}
+
+.segundo {align-self: flex-start;}
+
+.item img {width: 100%;
+height: auto;
+border-radius: 10px;
+border: 8px solid rgb(255, 255, 255);
+box-shadow: 0px 0px 3px black;
+box-sizing: border-box;}
+
+.Firu {padding: 0px;}
